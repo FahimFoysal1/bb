@@ -1,0 +1,38 @@
+.category-wrapper{
+    padding: 10px;
+    overflow: auto;
+    max-width: 100%;
+}
+
+footer{
+    font-size: smaller;
+}
+
+.quick-links{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.quick-links a, .foot-icon a{
+    color: whitesmoke;
+}
+
+.follow-us{
+    margin-left: 1.5em;
+    padding: 0;
+}
+
+.quick-links a, .follow-us a{
+    text-decoration: none;
+}
+
+.foot-icon{
+    border: 2px solid whitesmoke;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 1em;
+}

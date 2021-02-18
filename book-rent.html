@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book rent</title>
+
+    <!-- Bootstrap from cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/4171e1d14f.js" crossorigin="anonymous"></script>
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header and navigation section -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">Book rent</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- end of header and navigation section -->
+
+
+
+    <!-- category selection -->
+    <section>
+        <div class="container text-center pt-3">
+            <div class="category-wrapper">
+
+                <div class="btn-group" role="group" aria-label="Basic category toggle button group">
+                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck1">category 1</label>
+
+                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck2">category 2</label>
+
+                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck3">category 3</label>
+
+                    <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck4">category 4</label>
+
+                    <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck5">category 5</label>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of category selection
+
+
+    <!-- main content -->
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">
+                <!-- ---- col 1 ---- -->
+                <div class="col">
+                    <div class="book-item-wrap">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Book Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Book title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Book Writer</li>
+                                <li class="list-group-item">Book Uploader</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Borrow Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---- col 2 ---- -->
+                <div class="col">
+                    <div class="book-item-wrap">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Book Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Book title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Book Writer</li>
+                                <li class="list-group-item">Book Uploader</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Borrow Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---- col 3 ---- -->
+                <div class="col">
+                    <div class="book-item-wrap">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Book Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Book title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Book Writer</li>
+                                <li class="list-group-item">Book Uploader</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Borrow Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---- col 4 ---- -->
+                <div class="col">
+                    <div class="book-item-wrap">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Book Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Book title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Book Writer</li>
+                                <li class="list-group-item">Book Uploader</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Borrow Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---- col 5 ---- -->
+                <div class="col">
+                    <div class="book-item-wrap">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Book Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Book title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Book Writer</li>
+                                <li class="list-group-item">Book Uploader</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Borrow Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---- col 6 ---- -->
+                <div class="col">
+                    <div class="book-item-wrap">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Book Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Book title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Book Writer</li>
+                                <li class="list-group-item">Book Uploader</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Borrow Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of main content -->
+
+
+    <!-- footer section -->
+    <footer class="bg-secondary mt-4 text-light">
+
+        <!-- footer top section -->
+        <div class="container py-3 border-bottom">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3">
+
+
+                <!-- find us column -->
+                <div class="col find-us">
+                    <h5>Find Us</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ipsa nemo optio. Molestiae, quae
+                        deserunt.</p>
+
+                    <address>
+                        <i class="fas fa-location-arrow"></i>
+                        Lorem, ipsum dolor.
+                    </address>
+
+                    <p>
+                        <i class="fas fa-location-arrow"></i>
+                        <a href="tel:+12345678" class="text-decoration-none text-light">12345678</a>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-location-arrow"></i>
+                        <a href="mailto:a@mail.com" class="text-decoration-none text-light">bookstore@mail.com</a>
+                    </p>
+                </div>
+
+
+                <!-- Quick LInks 1 -->
+
+                <div class="col">
+                    <h5>Quick Links</h5>
+
+                    <ul class="quick-links">
+                        <li><a href="#">Book Lending</a></li>
+                        <li><a href="#">Book Borrowing</a></li>
+                        <li><a href="#">Book Selling</a></li>
+                        <li><a href="#">Book Selling</a></li>
+                        <li><a href="#">Book Selling</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Quick LInks 2 -->
+
+                <div class="col">
+                    <h5>Quick Links</h5>
+
+                    <ul class="quick-links">
+                        <li><a href="#">Book Lending</a></li>
+                        <li><a href="#">Book Borrowing</a></li>
+                        <li><a href="#">Book Selling</a></li>
+                        <li><a href="#">Book Selling</a></li>
+                        <li><a href="#">Book Selling</a></li>
+                    </ul>
+
+                </div>
+
+
+                <!-- Follow Us -->
+
+                <div class="col">
+                    <h5>Follow Us</h5>
+
+                    <ul class="fa-ul follow-us">
+
+                        <!-- <i class="fab fa-twitter"></i> -->
+                        <li>
+                            <span class="fa-li"><i class="fab fa-twitter"></i></span>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Labore.
+                            <a href="#">Book Lending</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-twitter"></i></span>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Labore.
+                            <a href="#">Book Lending</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-twitter"></i></span>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Labore.
+                            <a href="#">Book Lending</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- end of footer top section -->
+
+        <!-- footer bottom -->
+        <div class="foot-bottom-wrap text-center">
+            <div class="container">
+                <div class="row  row-cols-6 w-50 m-auto">
+                    <div class="col">Home</div>
+                    <div class="col">Home</div>
+                    <div class="col">Home</div>
+                    <div class="col">Home</div>
+                    <div class="col">Home</div>
+                    <div class="col">Home</div>
+                </div>
+
+                <div class="copy mt-2">
+                    <p>Copyright &copy; | Designed By "LEDP"</p>
+                </div>
+
+                <div class="py-2">
+                    <span class="foot-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                    <span class="foot-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                    <span class="foot-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                    <span class="foot-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer section -->
+</body>
+
+</html>
